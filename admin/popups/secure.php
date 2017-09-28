@@ -1,0 +1,2 @@
+<h2>Use secure browsing</h2>
+<p>If this box is checked you will be using our CMS through our SSL, meaning all transmissions are encrypted. Because some elements of the CMS are loaded directly from your website, and therefore are unsecure by nature, Internet Explorer will sometimes popup constant alerts. We've not yet found a way to fix this issue. If these popups are occuring on your system, you can uncheck this box to stop them from appearing.</p>

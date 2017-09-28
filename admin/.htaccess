@@ -1,0 +1,16 @@
+
+RewriteOptions inherit
+php_flag apc.cache_by_default Off
+
+	<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteCond %{HTTP_HOST} ^www.admin.keriganserver.com [NC]
+	RewriteRule ^(.*)$ http://admin.keriganserver.com/$1 [L,R=301]
+	
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	
+	RewriteRule ^(.*)$ index.php/$1 [L]
+	</IfModule>

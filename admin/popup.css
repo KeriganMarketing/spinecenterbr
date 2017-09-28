@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** RESET ****************************************************************/
+* { margin: 0; padding: 0; font-family: Verdana, Geneva, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+img { border: none; }
+a, a:visited { color: #0f588a; }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+
+/*** CLEARS AND FLOATERS **************************************************/
+
+.right {float: right;}
+.left {float: left;}
+.clear {clear: both;}
+.clear-left {clear: left; }
+.clear-right {clear: right; }
+.hide {display:none; }
+
+/**other**/
+body {
+	padding: 15px;
+}
+p, li {
+	font-size: 14px;
+	color: #333;
+}
+ul, ol {
+	margin: 5px 0 5px 30px;
+}
+li {
+	margin: 3px 0 5px 0;
+}
+p {
+	margin: 15px 0;
+}
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background: #ea8d2b;
+	padding: 10px 15px 7px 15px;
+	margin:-15px -15px 10px -15px;
+	border-bottom: 5px solid #ffae59;
+}
+h2 {
+	color: #1e527d;
+	font-size: 25px;
+}
+.small {
+	font-size: 11px;
+	color: #333;
+}

@@ -1,0 +1,11 @@
+<div class="Titles Titles--hero">
+  <h1 class="Titles-main">{{ title }}</h1>
+  {% if subtitle %}
+    <div class="Titles-sub">{{ subtitle }}</div>
+  {% endif %}
+  {% if project.external %}
+    <a class="Titles-action" data-analytics-id="launch-button" href="{{ project.external }}">
+      Launch {{ project.type | capitalize }} &#8594;
+    </a>
+  {% endif %}
+</div>
