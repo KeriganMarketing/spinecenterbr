@@ -1,3 +1,4 @@
 includes/config.php
 includes/db_connect.php
-
+admin/js/chart/node_modules/
+.idea/

@@ -114,6 +114,7 @@ if($_POST['apptreq'] == 'SpineCenterappts!'){
         <td bgcolor="#c6cabf" width="50%">
 		<p style="font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:13px; line-height:20px;">7301 Hennessy Blvd., Suite 300<br>Baton Rouge, LA 70808</p>
 		<a href="http://spinecenterbr.com" style="font-family: Tahoma, Geneva, sans-serif; color:#248ACA; font-size:14px;">www.spinecenterbr.com</a></td><td  bgcolor="#c6cabf" align="right" width="50%"><span style="font-family: Tahoma, Geneva, sans-serif; color:#248ACA; font-size:18px;">225-766-0050</span></td>
+        <p style="font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:13px; line-height:20px;"><a target="_blank" href="https://www.facebook.com/batonrougespinecenter" style="font-family: Tahoma, Geneva, sans-serif; color:#248ACA; font-size:14px;">Like us on Facebook!</a></p>
         </tr>
 		</table>
 		</body>
